@@ -9,7 +9,7 @@ import Sidebar from "./components/Sidebar"; // Import Sidebar component
 export default function App() {
   return (
     <Router>
-      <div className="flex"> {/* Use flexbox for layout */}
+      <div className="flex flex-col md:flex-row"> {/* Use flexbox for layout, change direction on small screens */}
         <Sidebar /> {/* Include the Sidebar */}
         <div className="flex-1 min-h-screen bg-gradient-to-br from-purple-600 to-indigo-800 text-white p-6"> {/* Main content area */}
           <Routes>

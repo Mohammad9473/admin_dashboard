@@ -1,12 +1,19 @@
-
 import React from "react";
-import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import {
+  BarChart,
+  Bar,
+  CartesianGrid,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const data = [
-  { name: 'Week 1', uv: 4000, pv: 2400 },
-  { name: 'Week 2', uv: 3000, pv: 1398 },
-  { name: 'Week 3', uv: 2000, pv: 9800 },
-  { name: 'Week 4', uv: 2780, pv: 3908 },
+  { name: "Week 1", uv: 4000, pv: 2400 },
+  { name: "Week 2", uv: 3000, pv: 1398 },
+  { name: "Week 3", uv: 2000, pv: 9800 },
+  { name: "Week 4", uv: 2780, pv: 3908 },
 ];
 
 export default function Reports() {
